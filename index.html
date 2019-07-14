@@ -10,6 +10,7 @@
     <title>McGREW</title>
 
     <!--  CSS -->
+    <link rel="stylesheet" href="css/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 
@@ -21,6 +22,7 @@
     <script src="js/scripts.js"></script>
     <script src="js/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
     <script src="js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+
 
 
 </head>
@@ -43,13 +45,16 @@
             </div>
         </nav>
     </div>
-    <div class="text_block">
-        <h1>We can help.</h1>
-        <p>Teaching independence to the lives of the people you love with reliable,
-            individualized emotional and behavioral therapy.</p>
-        <a href="#">Find help here</a>
-    </div>
 </header>
+<div class="hero">
+    <div class="text_block">
+       <div><h2>We can <a href="#" class="help">help.</a></h2></div>  <!--ссылка и h2-->
+
+        <div><p>Teaching independence to the lives of the people you love with reliable,
+            individualized emotional and behavioral therapy.</p></div>
+       <div><a href="#" class="btn">Find help here</a></div>
+    </div>
+</div>
 
 
 <div class="owl-carousel ">
@@ -69,35 +74,65 @@
 </div>
 
 <div class="middle_block">
-    <h2>Support For People Of All Walks of Life</h2>
-    <p>Children as young as 2 years old may begin to develop behaviors which need extra support and attention.</p>
-</div>
+    <div>
+        <div><h2>Support For People Of All Walks of Life</h2></div>
+       <div><p>Children as young as 2 years old may begin to develop behaviors which need extra support and attention.</p>
+       </div>
+    </div>
+ </div>
 
 <div class="contact_block">
-    <h4>McGrew Behavior Services Helps...</h4>
-    <p>Families, organizations and health care providers in Northern California.
-        Our knowledge and experience provide the specialized support people need
-        when overcoming behavioral challenges. </p>
-    <a href="#">Contact Us</a>
+    <!--<div> div whidth 1200 и max width 90% обертке-->
+
+        <div><h4>McGrew Behavior Services Helps...</h4>
+        </div>
+        <div><p>Families, organizations and health care providers in Northern California.
+            Our knowledge and experience provide the specialized support people need
+            when overcoming behavioral challenges. </p>
+        </div>
+        <div><a href="#">Contact Us</a>
+        </div>
+
 </div>
 
 <div class="photo_block">
+    <!--<div class="owl-carousel owl-theme owl-loaded">-->
+        <!--<div class="owl-stage-outer">-->
+            <!--<div class="owl-stage">-->
+                <!--<div class="owl-item"><img class="photo_1" src="images/photo_middle.png"/></div>-->
+                <!--<div class="owl-item"><img src="images/Background_1.png" height="492" width="1200"/></div>-->
+                <!--<div class="owl-item"><img src="images/Background_0.png"/></div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="owl-nav">-->
+            <!--<div class="owl-prev">prev</div>-->
+            <!--<div class="owl-next">next</div>-->
+        <!--</div>-->
+        <!--<div class="owl-dots">-->
+            <!--<div class="owl-dot active"><span></span></div>-->
+            <!--<div class="owl-dot"><span></span></div>-->
+            <!--<div class="owl-dot"><span></span></div>-->
+        <!--</div>-->
+    <!--</div>-->
     <img class="photo_1" src="images/photo_middle.png"/>
 </div>
 
 
 <div class="team_block">
+    <!--768 - поменять местами фото сверху сделать-->
     <div class="team_img">
     </div>
     <div class="team_text">
-        <span>Be a part of something bigger than yourself. Make a difference.</span>
-        <h2>Join Our Team.</h2>
+        <div>
+        <p class="team_text_italic">Be a part of something bigger than yourself. Make a difference.</p>
+            <h2>Join Our <a href="#" class="team">Team.</a></h2>
         <p>We are always looking for highly motivated individuals who aligned
             with our committment to making a difference in the lives of other
             people. Whether you’re a BCBA or interested in ABA work we are
             interested in talking to you!
         </p>
-        <a href="#">Find what's available</a>
+        <a href="#" class="btn_blue">Find what's available</a>
+        </div>
     </div>
 </div>
 
@@ -109,7 +144,6 @@
             <li><a href="#">about us</a></li>
             <li><a href="#">contact</a></li>
             <li><a href="#">careers</a></li>
-
         </ul>
     </div>
     <div class="decor">
